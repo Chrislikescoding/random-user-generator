@@ -27,7 +27,7 @@ const displayUser = (user) => {
       <span class="font-bold">Name: </span>${user.name.first}${user.name.last}
     </p>
     <p class="text-xl">
-      <span class="font-bold">Email: </span>${user.name.email}
+      <span class="font-bold">Email: </span>${user.email}
     </p>
     <p class="text-xl">
       <span class="font-bold">Phone: </span>${user.phone}
